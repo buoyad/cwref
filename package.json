@@ -1,0 +1,20 @@
+{
+  "name": "cwref",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/buoyad/cwref.git",
+  "author": "Daniel Ayoub <danny.a95@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "modules": "yarn install --pure-lockfile",
+    "start": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "keybase-bot": "3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "12.7.4",
+    "tslint": "5.19.0",
+    "typescript": "3.6.2"
+  }
+}
